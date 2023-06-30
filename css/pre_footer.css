@@ -1,0 +1,102 @@
+/* Above footer */
+
+.Up-footer {
+    background-color: #e5c643;
+    margin-top: 3vh;
+    color: aliceblue;
+    font-size: 4vh;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    letter-spacing: 4px;
+}
+
+.Up-footer-words {
+    margin-top: 1vh;
+    font-size: 3vh;
+    font-weight: 300;
+    letter-spacing: normal;
+}
+
+.email-line {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+}
+
+.email-box {
+    background-color: #fffdfd;
+    border-radius: 0.5vw;
+    padding: 0.5vw 0.5vw;
+}
+
+input {
+    border: 0;
+    font-size: calc((100vw - 480px) / (1280 - 480) * (20 - 15) + 15px);
+    padding: 0.5vw 1vw;
+}
+
+.btn-send {
+    background-color: rgb(4, 4, 4);
+    color: white;
+    border-radius: 5px;
+    vertical-align: middle;
+    font-size: calc((100vw - 480px) / (1280 - 480) * (20 - 15) + 15px);
+}
+
+.btn-send:hover {
+    transform: scale(1.1);
+    transition: all 500ms ease;
+}
+
+.form-email {
+    vertical-align: middle;
+    color: grey;
+}
+
+@media (max-width: 680px) {
+    .Up-footer {
+        margin-top: 50px;
+        color: aliceblue;
+        font-size: 25px;
+        font-weight: 900;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        letter-spacing: 4px;
+    }
+
+    .Up-footer-words {
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 300;
+        letter-spacing: normal;
+    }
+
+    .email-line {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .email-box {
+        background-color: #fffdfd;
+        border-radius: 5px;
+        padding: 10px 10px;
+    }
+
+    input {
+        border: 0;
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+
+    .btn-send {
+        background-color: rgb(4, 4, 4);
+        color: white;
+        border-radius: 5px;
+        vertical-align: middle;
+        font-size: 15px;
+    }
+}

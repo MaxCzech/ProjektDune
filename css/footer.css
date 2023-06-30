@@ -1,0 +1,118 @@
+/* Footer */
+footer {
+    background-color: black;
+}
+
+.Footer-content {
+    padding: 5vw 5vw;
+    display: flex;
+    background-color: black;
+    max-width: 1700px;
+    margin: 0 auto;
+    justify-content: space-between;
+    color: white;
+    /* font-size: 1vw; */
+    line-height: 2vw;
+}
+
+.footer-head-font {
+    font-size: calc((100vw - 480px) / (1280 - 480) * (30 - 16) + 16px);
+    font-weight: 900;
+    margin-bottom: 1vw;
+}
+
+.footer-line {
+    font-size: calc((100vw - 480px) / (1280 - 480) * (15 - 10) + 10px);
+    font-weight: 400;
+    color: #8e8e8e;
+}
+
+.social {
+    display: flex;
+    justify-content: left;
+}
+.social img {
+    width: 2.5vw;
+    margin-right: 0.5vw;
+    margin-top: 1vw;
+    transition: all 500ms ease;
+}
+.social img:hover {
+    transform: scale(1.2);
+}
+
+.footer-link:not:first-child {
+    font-size: calc((100vw - 480px) / (1280 - 480) * (15 - 10) + 10px);
+    font-weight: 400;
+    color: #8e8e8e;
+    transition: all 500ms ease;
+}
+
+.footer-link a:hover {
+    color: white;
+}
+
+/* .footer-link:not:first-child:hover {
+    font-size: calc((100vw - 480px) / (1280 - 480) * (15 - 10) + 10px);
+    font-weight: 400;
+    color: #f5f5f5;
+} */
+
+.footer-link:first-child {
+    font-size: calc((100vw - 480px) / (1280 - 480) * (15 - 10) + 10px);
+    font-weight: 400;
+    color: #fcfcfc;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link {
+    font-size: 1.4vw;
+}
+
+@media (max-width: 680px) {
+    footer {
+        background-color: black;
+    }
+
+    .Footer-content {
+        padding: 20px 20px;
+
+        flex-direction: column;
+
+        margin: 0 auto;
+
+        line-height: 30px;
+    }
+
+    .footer-head-font {
+        font-size: 20px;
+    }
+
+    .footer-line {
+        font-size: 15px;
+    }
+
+    .social img {
+        width: 50px;
+        margin-right: 20px;
+        margin-top: 20px;
+        transition: all 500ms ease;
+    }
+    .footer-link:not:first-child {
+        font-size: 25px;
+    }
+
+    .footer-link:first-child {
+        font-size: 20px;
+        font-weight: 400;
+        color: #fcfcfc;
+    }
+
+    .footer-link {
+        font-size: 20px;
+    }
+}

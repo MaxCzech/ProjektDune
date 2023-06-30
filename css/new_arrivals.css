@@ -1,0 +1,126 @@
+/* New Arrivals */
+
+.new-arrivals {
+    margin-top: 3vh;
+    margin-bottom: 6vh;
+    margin-left: 3vw;
+    font-size: 2vw;
+    font-weight: 900;
+    background-image: url(./image/Vector\ 8.png);
+    background-repeat: no-repeat;
+    background-size: 8vw auto;
+    background-position: bottom 0 left 9vw;
+}
+
+/* .new-arrivals img {
+    width: 8vw;
+    margin-left: 7vh;
+    margin-top: -3vh;
+    margin-bottom: 3vh;
+} */
+
+.new-arrivals li ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrivals-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 3vh 0;
+}
+
+.favorites-item {
+    display: flex;
+    flex-direction: column;
+    margin: 0vh 3vw;
+}
+
+.img-arrive {
+    width: 27vw;
+    margin-bottom: 3vh;
+}
+
+.text-pic-one {
+    font-size: calc((100vw - 480px) / (1280 - 480) * (20 - 10) + 10px);
+    font-weight: 600;
+}
+
+.text-pic-two {
+    font-size: calc((100vw - 480px) / (1280 - 480) * (12 - 8) + 8px);
+}
+
+.text-pic {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow {
+    width: 2vw;
+    transition: all 500ms ease;
+}
+
+.arrow:hover {
+    transform: rotate(45deg);
+    transition: all 500ms ease;
+}
+
+@media (max-width: 680px) {
+    .new-arrivals {
+        margin-top: 3vh;
+        margin-bottom: 6vh;
+        margin-left: 3vw;
+        font-size: 30px;
+        font-weight: 900;
+        background-image: url(./image/Vector\ 8.png);
+        background-repeat: no-repeat;
+        background-size: 200px auto;
+        background-position: bottom -20px left 50px;
+    }
+
+    .new-arrivals li ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .arrivals-block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .favorites-item {
+        display: flex;
+        flex-direction: column;
+        margin: 0vh 3vw;
+    }
+
+    .img-arrive {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .text-pic-one {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .text-pic-two {
+        font-size: 20px;
+    }
+
+    .text-pic {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 20px;
+    }
+
+    .arrow {
+        width: 30px;
+        transition: all 500ms ease;
+    }
+
+    .arrow:hover {
+        transform: rotate(-90deg);
+        transition: all 500ms ease;
+    }
+}

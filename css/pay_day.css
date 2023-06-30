@@ -1,0 +1,180 @@
+/* ----PayDay---- */
+
+.pay-now {
+    display: flex;
+    justify-content: center;
+}
+
+.foto-image12 img {
+    width: 50vw;
+    height: 50vw;
+}
+
+.payday-words {
+    background-color: white;
+    transform: rotate(-3deg);
+    margin: 1vh 0;
+    width: 27vw;
+}
+
+.background-payday-words {
+    transform: rotate(3deg);
+    padding: 0.5vw 0 0.5vw 1vw;
+}
+
+.pay-now-text {
+    width: 50vw;
+    background-image: linear-gradient(to bottom, #f9df56, #e4c542);
+    height: 50vw;
+}
+
+.pay-day {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6vw;
+
+    padding-left: 1vw;
+}
+
+.pay-day li:nth-child(1),
+.pay-day li:nth-child(2) {
+    font-size: calc((100vw - 480px) / (1280 - 480) * (70 - 20) + 20px);
+    font-weight: 900;
+    color: #000000;
+}
+.pay-day li:nth-child(2) {
+    margin-bottom: 3vw;
+}
+
+.pay-day li:nth-child(3),
+.pay-day li:nth-child(4) {
+    font-size: calc((100vw - 480px) / (1280 - 480) * (21 - 8) + 8px);
+    font-weight: 500;
+}
+.pay-day li:nth-child(4) {
+    margin-bottom: 3vw;
+}
+
+.pay-day li:nth-child(5) {
+    font-size: calc((100vw - 480px) / (1280 - 480) * (21 - 8) + 8px);
+    font-weight: 800;
+}
+.pay-day li:nth-child(6) {
+    font-size: calc((100vw - 480px) / (1280 - 480) * (21 - 8) + 8px);
+    font-weight: 500;
+}
+
+.pay-day li:nth-child(6) {
+    margin-bottom: 3vw;
+}
+
+.btn-shop a {
+    background-color: black;
+    color: white;
+    padding: 1vw 2vw;
+    margin: 1vh 0 1vh 0;
+    font-weight: 400;
+    border-radius: 10px;
+    font-size: calc((100vw - 480px) / (1280 - 480) * (20 - 8) + 8px);
+    text-decoration: none;
+    transition: all 500ms ease;
+}
+
+.btn-shop a:hover {
+    transform: scale(1.1);
+}
+
+.Sale-now img {
+    width: 100%;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+@media (max-width: 680px) {
+    .pay-now {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foto-image12 img {
+        visibility: hidden;
+        height: 0;
+        margin-top: 0;
+    }
+
+    .payday-words {
+        background-color: white;
+        transform: rotate(-3deg);
+        margin: 10px 0;
+        width: 170px;
+    }
+
+    .background-payday-words {
+        transform: rotate(3deg);
+        padding: 10px 10px 0px;
+    }
+
+    .pay-now-text {
+        width: 100%;
+        /* background-image: none; */
+        background-image: url(../image/image_12.png);
+        background-position: top -20%;
+        background-size: 120%;
+        height: 450px;
+    }
+
+    .pay-day {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+
+    .pay-day li:nth-child(1),
+    .pay-day li:nth-child(2) {
+        font-size: 30px;
+        font-weight: 900;
+        color: #000000;
+    }
+    .pay-day li:nth-child(2) {
+        margin-bottom: 120px;
+    }
+
+    .pay-day li:nth-child(3),
+    .pay-day li:nth-child(4) {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .pay-day li:nth-child(4) {
+        margin-bottom: 2cap;
+    }
+
+    .pay-day li:nth-child(5) {
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .pay-day li:nth-child(6) {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .pay-day li:nth-child(6) {
+        margin-bottom: 10px;
+    }
+
+    .btn-shop a {
+        background-color: black;
+        color: white;
+        padding: 1vw 2vw;
+        margin: 1vh 0 1vh 0;
+        font-weight: 400;
+        border-radius: 10px;
+        font-size: 15px;
+        text-decoration: none;
+        transition: all 500ms ease;
+    }
+
+    .btn-shop a:hover {
+        transform: scale(1.1);
+    }
+}

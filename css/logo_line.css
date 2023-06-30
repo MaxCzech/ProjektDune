@@ -1,0 +1,31 @@
+/* Logo line */
+
+.lista-logo ul {
+    background-color: #ebd96b;
+    margin-top: 5vh;
+    padding: 3vh 3vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lista-logo ul img {
+    height: 4vw;
+}
+
+@media (max-width: 680px) {
+    .lista-logo ul {
+        background-color: #ebd96b;
+        margin-top: 5vh;
+        padding: 3vh 3vw;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .lista-logo ul img {
+        height: 30px;
+        margin: 10px 10px;
+    }
+}

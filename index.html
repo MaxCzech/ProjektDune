@@ -14,7 +14,7 @@
     </head>
     <body>
         <header>
-            <ul>
+            <ul class="st-menu">
                 <li>
                     <ul class="logo">
                         <li>
@@ -35,27 +35,50 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="menu-button" href="#Shipping">
+                                <a class="menu-button" href="#PayDay">
                                     FASHION
                                 </a>
                             </li>
                             <li>
-                                <a class="menu-button" href="#aboutUs">
+                                <a class="menu-button" href="#Favorit">
                                     FAVORITE
                                 </a>
                             </li>
                             <li>
-                                <a class="menu-button" href="#myProfile">
+                                <a class="menu-button" href="#App">
                                     LIFESTYLE
                                 </a>
                             </li>
                             <li>
-                                <a class="menu-button" href="#myProfile"
-                                    >SIGN UP</a
-                                >
+                                <a class="menu-button" href="#Links">LINKS</a>
                             </li>
                         </ul>
                     </nav>
+                    <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                            <span></span>
+                        </label>
+                        <ul class="menu__box">
+                            <li>
+                                <a class="menu__item" href="#Shop">CATALOG</a>
+                            </li>
+                            <li>
+                                <a class="menu__item" href="#PayDay">FASHION</a>
+                            </li>
+                            <li>
+                                <a class="menu__item" href="#Favorit"
+                                    >FAVORITE</a
+                                >
+                            </li>
+                            <li>
+                                <a class="menu__item" href="#App">LIFESTYLE</a>
+                            </li>
+                            <li>
+                                <a class="menu__item" href="#Links">LINKS</a>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
             </ul>
         </header>
@@ -85,7 +108,7 @@
                                             src="./image/Vector 8.png"
                                             alt="альтернативный текст" />
                                     </li>
-                                    <li class="btn-shop">
+                                    <li>
                                         <a href="#Shop">Shop Now</a>
                                     </li>
                                 </ul>
@@ -107,39 +130,34 @@
                 <ul>
                     <li>
                         <img
-                            src="./image/Rectangle 36.png"
-                            alt="альтернативный текст"
-                            width="100%" />
+                            src="./image/handm.png"
+                            alt="альтернативный текст" />
                     </li>
                     <li>
                         <img
-                            src="./image/Rectangle 38.png"
+                            src="./image/obey.png"
                             alt="альтернативный текст"
-                            width="100%" />
+                            h />
                     </li>
                     <li>
                         <img
-                            src="./image/Rectangle 41.png"
-                            alt="альтернативный текст"
-                            width="100%" />
+                            src="./image/shopyfy.png"
+                            alt="альтернативный текст" />
                     </li>
                     <li>
                         <img
-                            src="./image/Rectangle 43.png"
-                            alt="альтернативный текст"
-                            width="100%" />
+                            src="./image/lacoste.png"
+                            alt="альтернативный текст" />
                     </li>
                     <li>
                         <img
-                            src="./image/Rectangle 44.png"
-                            alt="альтернативный текст"
-                            width="100%" />
+                            src="./image/levis.png"
+                            alt="альтернативный текст" />
                     </li>
                     <li>
                         <img
-                            src="./image/Rectangle 45.png"
-                            alt="альтернативный текст"
-                            width="100%" />
+                            src="./image/amazon.png"
+                            alt="альтернативный текст" />
                     </li>
                 </ul>
             </div>
@@ -147,12 +165,11 @@
             <!-- New Arrivals   -->
 
             <div>
-                <div class="new-arrivals">
+                <div class="new-arrivals" id="Shop">
                     <p>NEW ARRIVALS</p>
-                    <img src="./image/Vector 8.png" alt="ff" />
                 </div>
 
-                <ul class="favorites-block">
+                <ul class="arrivals-block">
                     <li>
                         <ul class="favorites-item">
                             <li>
@@ -162,15 +179,20 @@
                                     alt="new1" />
                             </li>
                             <li>
-                                <ul class="strelka">
+                                <ul class="text-pic">
                                     <li>
                                         <ul>
-                                            <li>Hoodies & Sweetshirt</li>
-                                            <li>Explore Now!</li>
+                                            <li class="text-pic-one">
+                                                Hoodies & Sweetshirt
+                                            </li>
+                                            <li class="text-pic-two">
+                                                Explore Now!
+                                            </li>
                                         </ul>
                                     </li>
                                     <li>
                                         <img
+                                            class="arrow"
                                             src="./image/Arrow 1.png"
                                             alt="arrow" />
                                     </li>
@@ -187,15 +209,20 @@
                                     alt="New2" />
                             </li>
                             <li>
-                                <ul class="strelka">
+                                <ul class="text-pic">
                                     <li>
                                         <ul>
-                                            <li>Dune HD</li>
-                                            <li>free dlivery</li>
+                                            <li class="text-pic-one">
+                                                Coats & Parkas
+                                            </li>
+                                            <li class="text-pic-two">
+                                                Explore Now!
+                                            </li>
                                         </ul>
                                     </li>
                                     <li>
                                         <img
+                                            class="arrow"
                                             src="./image/Arrow 1.png"
                                             alt="arrow" />
                                     </li>
@@ -212,15 +239,20 @@
                                     alt="New3" />
                             </li>
                             <li>
-                                <ul class="strelka">
+                                <ul class="text-pic">
                                     <li>
                                         <ul>
-                                            <li>Dune HD</li>
-                                            <li>free dlivery</li>
+                                            <li class="text-pic-one">
+                                                Teen & T-Shit
+                                            </li>
+                                            <li class="text-pic-two">
+                                                Explore Now!
+                                            </li>
                                         </ul>
                                     </li>
                                     <li>
                                         <img
+                                            class="arrow"
                                             src="./image/Arrow 1.png"
                                             alt="arrow" />
                                     </li>
@@ -231,36 +263,57 @@
                 </ul>
             </div>
 
-            <div class="Sale-now">
-                <img src="./image/Banner.png" alt="" />
-            </div>
+            <!-- ---PAYDAY---- -->
+            <ul class="pay-now" id="PayDay">
+                <li class="foto-image12">
+                    <img src="./image/image_12.png" alt="foto" />
+                </li>
+                <li class="pay-now-text">
+                    <ul class="pay-day">
+                        <li class="payday-words">
+                            <div class="background-payday-words">PAYDAY</div>
+                        </li>
+                        <li>SALE NOW</li>
+                        <li>Spend minimal $100 get 30% off</li>
+                        <li>voucher code for your next purchase</li>
+                        <li>1 June-10 June 2021</li>
+                        <li>*Terms & Conditions apply</li>
+                        <li class="btn-shop"><a href="#Shop">Shop Now</a></li>
+                    </ul>
+                </li>
+            </ul>
 
-            <!-- Trending Now -->
+            <!-- Youngs Favorite -->
 
             <div>
-                <p>Trending Now</p>
-            </div>
+                <div class="new-arrivals" id="Favorit">
+                    <p>Young's Favourite</p>
+                </div>
 
-            <div class="new-arrivals ul">
-                <ul>
+                <ul class="arrivals-block">
                     <li>
-                        <ul class="favorites-item">
+                        <ul class="favorites-item2">
                             <li>
                                 <img
-                                    class="img-trending"
+                                    class="img-favorite"
                                     src="./image/Rectangle 49.png"
-                                    alt="Homatic" />
+                                    alt="new1" />
                             </li>
                             <li>
-                                <ul class="strelka">
+                                <ul class="text-pic">
                                     <li>
                                         <ul>
-                                            <li>Trending in instagram</li>
-                                            <li>Explore Now</li>
+                                            <li class="text-pic-one">
+                                                Trending on Instagram
+                                            </li>
+                                            <li class="text-pic-two">
+                                                Explore Now!
+                                            </li>
                                         </ul>
                                     </li>
                                     <li>
                                         <img
+                                            class="arrow"
                                             src="./image/Arrow 1.png"
                                             alt="arrow" />
                                     </li>
@@ -268,25 +321,29 @@
                             </li>
                         </ul>
                     </li>
-
                     <li>
-                        <ul class="favorites-item">
+                        <ul class="favorites-item3">
                             <li>
                                 <img
-                                    class="img-trending"
+                                    class="img-favorite"
                                     src="./image/Rectangle 50.png"
-                                    alt="" />
+                                    alt="New2" />
                             </li>
                             <li>
-                                <ul class="strelka">
+                                <ul class="text-pic">
                                     <li>
-                                        <ul class="strelka">
-                                            <li>Trending in instagram</li>
-                                            <li>Explore Now</li>
+                                        <ul>
+                                            <li class="text-pic-one">
+                                                All Under $40
+                                            </li>
+                                            <li class="text-pic-two">
+                                                Explore Now!
+                                            </li>
                                         </ul>
                                     </li>
                                     <li>
                                         <img
+                                            class="arrow"
                                             src="./image/Arrow 1.png"
                                             alt="arrow" />
                                     </li>
@@ -300,7 +357,7 @@
             <!-- App -->
 
             <div>
-                <ul class="flex-app">
+                <ul class="flex-app" id="App">
                     <li>
                         <ul class="flex-col">
                             <li>DOWNLOAD APP &</li>
@@ -313,23 +370,29 @@
                                         <img
                                             class="img-app"
                                             src="./image/Rectangle 18.png"
-                                            alt="" />
+                                            alt="google" />
                                     </li>
                                     <li>
                                         <img
                                             class="img-app"
                                             src="./image/Rectangle 55.png"
-                                            alt="" />
+                                            alt="ios" />
                                     </li>
                                 </ul>
                             </li>
                         </ul>
                     </li>
-                    <li>
-                        <img
-                            class="img-app-screen"
-                            src="./image/1.jpg"
-                            alt="app" />
+                    <li class="circl-screen">
+                        <div class="mycircle violet">
+                            <div class="mycircle navy myshift">
+                                <div class="mycircle lightblue myshift">
+                                    <img
+                                        class="img-app-screen"
+                                        src="./image/Mobile app.png"
+                                        alt="app" />
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -342,19 +405,41 @@
                 <p class="Up-footer-words">
                     Type your email down below and be young wild generation
                 </p>
+
+                <ul class="email-line">
+                    <li></li>
+                    <li>
+                        <div class="email-box">
+                            <form action="#">
+                                <input
+                                    type="text"
+                                    size="30"
+                                    value="Add your email here"
+                                    class="form-email" />
+                                <input
+                                    type="submit"
+                                    value="SEND"
+                                    class="btn-send" />
+                            </form>
+                        </div>
+                    </li>
+                    <li></li>
+                </ul>
             </div>
         </main>
 
         <!-- Footer -->
 
-        <footer class="Footer">
+        <footer class="Footer" id="Links">
             <section>
                 <ul class="Footer-content">
                     <li>
                         <ul>
-                            <li class="footer-head-font">DUNE HD</li>
-                            <li class="footer-link">Complete your mediateca</li>
-                            <li class="footer-link">with our box</li>
+                            <li class="footer-head-font">FASHION</li>
+                            <li class="footer-line">
+                                Complete your style with awesome
+                            </li>
+                            <li class="footer-line">clothes from us</li>
                             <li>
                                 <ul class="social">
                                     <li>
@@ -383,27 +468,27 @@
                     </li>
                     <li class="footer-link">
                         <ul>
-                            <li><a>Company</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Contact Us</a></li>
-                            <li><a>Support</a></li>
-                            <li><a>Careers</a></li>
+                            <li class="footer-col-head">Company</li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Careers</a></li>
                         </ul>
                     </li>
                     <li class="footer-link">
                         <ul>
                             <li>Quick Link</li>
-                            <li>Share Location</li>
-                            <li>Orders Tracking</li>
-                            <li>Size Guide</li>
-                            <li>FAQs</li>
+                            <li><a href="#">Share Location</a></li>
+                            <li><a href="#">Orders Tracking</a></li>
+                            <li><a href="#">Size Guide</a></li>
+                            <li><a href="#">FAQs</a></li>
                         </ul>
                     </li>
                     <li class="footer-link">
                         <ul>
                             <li>Legal</li>
-                            <li>Terms & condition</li>
-                            <li>Privace Policy</li>
+                            <li><a href="#">Terms & condition</a></li>
+                            <li><a href="#">Privace Policy</a></li>
                         </ul>
                     </li>
                 </ul>
